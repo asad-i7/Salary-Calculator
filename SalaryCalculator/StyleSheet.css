@@ -1,0 +1,116 @@
+﻿body {
+    width: 95%;
+    height: 95%;
+    font-family: "Trebuchet MS";
+    background-color: black;
+}
+
+h2 {
+    color: darkblue;
+}
+
+th, td {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border: solid 1px black;
+}
+
+tr:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+#main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 75%;
+    height: 75%;
+}
+
+#text {
+    font-size: 15px;
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#calculator {
+    float: right;
+    width: 40%;
+    position: relative;
+    left: -80px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#poundsign {
+    font-weight: bold;
+}
+
+.header {
+    background-color: royalblue;
+    color: white;
+    border: solid;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.table {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 80%;
+    height: 80%;
+    font-size: 16px;
+}
+
+
+.enter {
+    width: 90%;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.enter2 {
+    width: 100%;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.button {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: darkblue;
+    color: white;
+}
